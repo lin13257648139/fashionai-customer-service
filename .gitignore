@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+*.log
+logs/
+
+# Runtime state and user data
+fashionai.db
+conversation_history.json
+data/*.json
+data/*.npz
+
+# Large optional local model
+bge-small-zh/
+
+# Frontend build and dependencies
+fashionai-vue/node_modules/
+fashionai-vue/dist/
+fashionai-vue/.npm-cache/
+fashionai-vue/auto-imports.d.ts
+fashionai-vue/components.d.ts
+
+.vscode/
+.DS_Store
+Thumbs.db
